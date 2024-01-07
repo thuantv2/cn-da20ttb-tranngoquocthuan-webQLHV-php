@@ -1,0 +1,80 @@
+
+.col-sm-6, .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+}
+.dataTables_leght {
+    width: 40%;
+}
+div.dataTables_leght label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+div.dataTables_leght select {
+    width: 75px;
+	border-radius: 4px;
+    display: inline-block;
+}
+select.input-sm {
+    height: 27px;
+    line-height: 30px;
+}
+select {
+    text-transform: none;
+	margin: 0;
+    font: inherit;
+}
+th {
+	color: #007180;
+}
+#datatable {
+	border-collapse:collapse;
+}
+.table {
+	border: 1px solid #648eca;
+}
+td,th {
+	padding:10px;
+}
+#datatable thead tr td, #datatable thead tr th {
+	text-align:center;
+	vertical-align:center;
+}
+#datatable thead tr th, #datatable thead tr td {
+	border: 1px solid #648eca;
+}
+#column {
+	background-color: #efeeee;
+}
+
+#Paging {
+	height: 35px;
+}
+#Paging ul {
+	padding: 3px;
+	margin: 5px 20px 5px 5px;
+}
+#Paging ul li {
+	border: 1px solid #fff;
+	background-color: #a5a5a5;
+	padding: 5px;
+}
+#Paging ul li a{
+	color: #fff;
+	text-decoration:none	
+}
+#Paging ul li:hover {
+	background-color: #a2a2a2;
+}
+#Paging ul li:hover a, #Paging ul #pging_li span, #Paging ul #pging_li:hover a span {
+	color: #fece0a;
+}
+#Paging ul #pging_li a span {
+	color: #fff;
+}

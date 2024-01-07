@@ -1,0 +1,33 @@
+
+.clearfix {
+    display: block;
+}
+#mainnav {
+    position: absolute;
+    bottom: 0;
+    background-color: #004681;
+    border-top: solid 1px #055393;
+    width: 980px;
+}
+#mainnav .CSSMENU ul{
+	list-style: none;
+	padding: 0;
+}
+#mainnav .CSSMENU ul>li{
+	border-left: solid 1px #5d79bb;
+	float:left;
+	position:relative;
+}
+#mainnav .CSSMENU ul>li>a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+	padding:10px 30px;
+}
+#mainnav .CSSMENU ul>li>a:hover>span{
+	color:#FECE0A;
+}
+#select>a>span{
+	color:#FECE0A;
+}

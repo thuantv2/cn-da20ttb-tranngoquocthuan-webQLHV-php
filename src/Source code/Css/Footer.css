@@ -1,0 +1,21 @@
+
+#footer {
+    position: relative;
+    padding: 15px 10px;
+    color: #FFF;
+    height: 100px;
+    background-color: #003A6A;
+#th, td {
+        padding: 10px;
+        /* border: 1px solid #ddd; */
+        text-align: left;
+    }
+}
+#footer a:hover, #footer a:active, #footer a:focus {
+	text-decoration: none;
+    color: #FECE0A;
+}
+#footer a {
+	text-decoration: none;
+    color: #fff;
+} 

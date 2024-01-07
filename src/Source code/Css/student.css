@@ -1,0 +1,66 @@
+body, h3, label, select, input, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.bang {
+    text-align: center;
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px;
+}
+
+/* Style the form */
+.bang form {
+    margin-bottom: 20px;
+}
+
+/* Style the label and select */
+.bang label {
+    margin-right: 10px;
+}
+
+.bang select {
+    padding: 8px;
+}
+
+/* Style the submit button */
+.bang input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #4CAF50; /* Set your desired button color */
+    color: #fff; /* Set your desired text color */
+    border: none;
+    cursor: pointer;
+}
+
+/* Add some spacing to the table */
+.bang table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style the table headers */
+.bang th {
+    background-color: #333; /* Set your desired header background color */
+    color: #fff; /* Set your desired header text color */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the table cells */
+.bang td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style the alternating row colors */
+.bang tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style the "Thao tác" column */
+.bang .thao-tac {
+    text-align: center;
+}
+
